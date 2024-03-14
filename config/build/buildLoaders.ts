@@ -34,5 +34,10 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
     ],
   };
 
-  return [esbuildLoader, cssLoader];
+  const svgLoader = {
+    test: /\.svg$/,
+    use: ['@svgr/webpack'],
+  };
+
+  return [svgLoader, esbuildLoader, cssLoader];
 }

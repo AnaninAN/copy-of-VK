@@ -1,6 +1,7 @@
 /build
 node_modules
 .vscode
+.fttemplates
 
 vkColorLight.scss
 vkColorDark.scss

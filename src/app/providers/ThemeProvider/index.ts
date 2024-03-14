@@ -1,4 +1,4 @@
 import ThemeProvider from './ui/ThemeProvider';
-import { Theme } from './lib/ThemeContext';
+import { Theme } from '../../../shared/lib/ThemeContext/ThemeContext';
 
 export { ThemeProvider, Theme };

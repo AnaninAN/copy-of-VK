@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background: var(--header-bg-color);
+
+  .navbar__logo {
+    width: var(--sidebar-width);
+    align-self: center;
+    margin-left: -2px;
+  }
+
+  .navbar__search {
+    width: 230px;
+    padding-right: 15px;
+  }
+
+  .navbar__btns {
+    width: var(--navbar-height);
+    height: var(--navbar-height);
+  }
+
+  .navbar__audio {
+    flex-grow: 1;
+    min-width: 240px;
+  }
+
+  .navbar__theme {
+    align-self: center;
+  }
+}

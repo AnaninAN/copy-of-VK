@@ -1,9 +1,6 @@
 import { useCallback, useContext, useEffect } from 'react';
 
-import {
-  Theme,
-  ThemeContext,
-} from '@/app/providers/ThemeProvider/lib/ThemeContext';
+import { Theme, ThemeContext } from '@/shared/lib/ThemeContext/ThemeContext';
 import { LOCALSTORAGE_THEME_KEY } from '@/shared/const/localstorage';
 
 interface UseThemeResult {

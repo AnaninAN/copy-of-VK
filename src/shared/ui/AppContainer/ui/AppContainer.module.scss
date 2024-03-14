@@ -1,0 +1,7 @@
+.appContainer {
+  max-width: calc(var(--layout-width) + 30px);
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
